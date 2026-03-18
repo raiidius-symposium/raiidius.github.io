@@ -18,6 +18,7 @@ const roleLabels: Record<string, string> = {
   keynote: 'Keynote Speaker',
   panelist: 'Panelist',
   'breakout-lead': 'Breakout Lead',
+  founder: 'Founder',
   presenter: 'Presenter',
   organizer: 'Organizer',
   moderator: 'Moderator',
@@ -26,14 +27,15 @@ const roleLabels: Record<string, string> = {
 };
 
 const roleOrder = [
+  'founder',
   'general-chair',
   'program-chair',
   'organizer',
   'keynote',
+  'moderator',
   'panelist',
   'breakout-lead',
-  'presenter',
-  'moderator',
+  'presenter'
 ];
 const getSpeakerRoles = (speaker: Speaker): string[] =>
   Array.isArray(speaker.role) ? speaker.role : [speaker.role];
