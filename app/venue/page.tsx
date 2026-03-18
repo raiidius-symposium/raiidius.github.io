@@ -20,6 +20,14 @@ export default function VenuePage() {
           <p className="text-lg text-muted-foreground">
             Everything you need to know about getting to {siteConfig.seriesAcronym} {currentEdition.year}.
           </p>
+
+          <div className="mt-6 overflow-hidden rounded-xl border">
+            <img
+              src="/raiidius/vps-vec-exterior.jpg"
+              alt="Exterior view of the Vagelos Education Center"
+              className="h-auto w-full object-cover"
+            />
+          </div>
         </div>
 
         {/* Venue Details */}
