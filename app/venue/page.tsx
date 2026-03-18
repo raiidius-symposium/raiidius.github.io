@@ -21,7 +21,7 @@ export default function VenuePage() {
             Everything you need to know about getting to {siteConfig.seriesAcronym} {currentEdition.year}.
           </p>
 
-          <div className="mt-6 overflow-hidden rounded-xl border">
+          <div className="mt-6 overflow-hidden rounded-xl border h-48 md:h-56">
             <img
               src="/raiidius/vps-vec-exterior.jpg"
               alt="Exterior view of the Vagelos Education Center"
