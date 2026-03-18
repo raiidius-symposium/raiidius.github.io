@@ -262,13 +262,26 @@ const speakers2026: Speaker[] = [
   {
     id: 'speaker-10',
     name: 'Michael T. Yin, MD, MS',
-    affiliation: 'CUIMC Department of Biomedical Informatics',
+    affiliation: 'CUIMC Division of Infectious Diseases',
     title: 'Professor of Medicine',
-    role: 'organizer',
+    role: ['organizer','presenter'],
     bio: 'Dr. Michael Yin is an infectious disease specialist who has dedicated his career towards optimizing HIV treatment and prevention. His research focuses upon non-infectious complications of HIV which is growing in significance as people with HIV live longer with effective antiretrovirals therapy (ART) and experience accentuated aging-related complications. He has evaluated the epidemiology and pathogenic mechanisms of HIV associated bone loss in postmenopausal women, adolescents, and children with perinatal infection. Using novel imaging techniques and translational bone cell assays, he has made important discoveries about the dysregulation of bone metabolism associated with HIV infection and ART and investigated therapeutic strategies to mitigate bone loss and fracture. In addition to skeletal complications, Dr. Yin has also studied the impact of HIV and ART on cardiovascular disease, metabolic syndrome, obesity, frailty and falls. Recent work has extended to evaluation of epigenetic aging in children, adolescents and adults living with HIV.',
     keywords: ['Clinical Informatics', 'HIV', 'Aging', 'Epigenetics'],
     headshot: '/raiidius/speakers/michael-yin.jpg',
   },
+  {
+    id: 'speaker-11',
+    name: 'Pierre Elias, MD',
+    affiliation: 'CUIMC Division of Cardiology and Department of Biomedical Informatics',
+    title: 'Assistant Professor of Medicine at CUIMC',
+    role: 'panelist',
+    bio: 'Pierre Elias is an Assistant Professor in the Division of Cardiology and the Department of Biomedical Informatics at Columbia University Irving Medical Center, where he practices as a general cardiologist. He is also the Medical Director for Artificial Intelligence at NewYork-Presbyterian. His research lab develops machine learning technologies for medical imaging to improve the detection and management of cardiovascular disease.
+
+Dr. Elias received his medical degree at Duke University School of Medicine in North Carolina. He completed his residency in Internal Medicine and fellowship in Cardiovascular Disease at NewYork-Presbyterian/Columbia University Irving Medical Center through the Clinician-Scientist Pathway. He completed his postdoc under Dr. Adler Perotte in the Department of Biomedical Informatics. He has been named a STAT News Wunderkind highlighting 20 of the most innovative junior researchers in the country and has received the Emerging Generation Award from the American Society of Clinical Investigation. He was previously a data scientist at Lumiata, helping develop Google's Knowledge Graph for Health.',
+    keywords: ['AI','Medical Imaging','Clinical Informatics', 'General Cardiology'],
+    headshot: '/raiidius/speakers/pierre-elias.jpg',
+  },
+
 ];
 
 
