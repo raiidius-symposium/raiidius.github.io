@@ -41,8 +41,14 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
+      - name: Show environment
+        run: |
+          node -v
+          pnpm -v
+          cat package.json
+
       - name: Build
-        run: pnpm build
+        run: pnpm build --debug
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
