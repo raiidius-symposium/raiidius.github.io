@@ -25,7 +25,9 @@ type SpeakerRole =
   | 'breakout-lead'
   | 'presenter'
   | 'organizer'
-  | 'moderator';
+  | 'moderator'
+  | 'general-chair'
+  | 'program-chair';
 
 export interface Speaker {
   id: string;
@@ -164,7 +166,7 @@ const speakers2026: Speaker[] = [
     name: 'Harry Reyes Nieva, PhD, MAS',
     affiliation: 'CUIMC Division of Infectious Diseases',
     title: 'Incoming Assistant Professor',
-    role: ['organizer','keynote'],
+    role: ['organizer','keynote','general-chair'],
     bio: 'Dr. Reyes Nieva is a biomedical informatician specializing in artificial intelligence (AI) in medicine and public health. My research aims to advance precision health for all populations by harnessing AI and informatics to accelerate scientific knowledge discovery and translation at scale, strengthen next-generation learning health systems, and interrogate the ethical, legal, and social considerations necessary for the development of human-centered AI.',
     keywords: ['Human-Centered AI', 'Precision Health', 'Learning Health Systems', 'Clinical and Public Health Informatics'],
     headshot: '/raiidius/speakers/harry-reyes-nieva.jpg',
