@@ -423,7 +423,7 @@ const importantDates2026: ImportantDate[] = [
   {
     label: 'Early Registration Opens',
     date: 'March 15, 2026',
-    description: 'Early bird registration rates available.',
+    description: 'Registration opens for attendees.',
   },
   {
     label: 'Abstract Submission Deadline',
@@ -438,7 +438,7 @@ const importantDates2026: ImportantDate[] = [
   {
     label: 'Early Registration Deadline',
     date: 'May 15, 2026',
-    description: 'Last day for early bird registration rates.',
+    description: 'Last day to register in advance.',
   },
   {
     label: 'RAIIDIUS 2026 Symposium',

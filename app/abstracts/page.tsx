@@ -181,7 +181,7 @@ export default function AbstractsPage() {
               </p>
               <div className="mt-4 flex items-center gap-2 text-sm text-primary">
                 <CheckCircle2 className="h-4 w-4" />
-                <span>Trainee registration discounts available</span>
+                <span>Attendance is free for all registered attendees</span>
               </div>
             </CardContent>
           </Card>
