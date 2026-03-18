@@ -16,7 +16,7 @@ export default function WorkshopsPage() {
         {/* Header */}
         <div className="mb-8">
           <h1 className="mb-4 text-3xl font-bold md:text-4xl">
-            Workshops & Breakout Sessions
+            Workshop Tutorial
           </h1>
           <p className="text-lg text-muted-foreground">
             Deep-dive sessions for hands-on learning and focused discussions.
@@ -27,9 +27,7 @@ export default function WorkshopsPage() {
         <Alert className="mb-8">
           <Info className="h-4 w-4" />
           <AlertDescription>
-            <strong>{siteConfig.seriesAcronym} {currentEdition.year}</strong> features 
-            concurrent breakout sessions rather than standalone workshops. Future editions 
-            may include extended workshop formats.
+            <strong>{siteConfig.seriesAcronym} {currentEdition.year}</strong> features an OHDSI workshop tutorial session.
           </AlertDescription>
         </Alert>
 

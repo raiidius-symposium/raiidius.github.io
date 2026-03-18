@@ -246,7 +246,7 @@ const speakers2026: Speaker[] = [
     name: 'Magdalena E. Sobieszczyk, MD, MPH',
     affiliation: 'CUIMC Division of Infectious Diseases',
    title: 'Harold C. Neu Professor of Infectious Diseases and Chief of Infectious Diseases at CUIMC',
-    role: ['moderator'],
+    role: ['organizer','keynote'],
     bio: 'Dr. Sobieszczyk is the Harold Neu Professor of Infectious Diseases (in Medicine) at the Columbia University Medical Center. She is the Chief of Infectious Diseases at the Columbia University Irving Medical Center in New York. Dr. Sobieszczyk is a clinical virologist and the principal investigator of the NIH-funded Columbia Collaborative Clinical Trials Unit which has been advancing the science of HIV and emerging infections like SARS-CoV-2.',
     keywords: ['Clinical Virology', 'HIV Clinical Trials', 'HIV Vaccines', 'HIV Care'],
     headshot: '/raiidius/speakers/magdalena-sobieszczyk.jpg',
@@ -305,13 +305,13 @@ const agenda2026: Session[] = [
     location: 'VEC 401 Atrium',
   },
   {
-    id: 'breakout-sessions',
-    title: 'Concurrent Breakout Sessions',
-    format: 'breakout',
+    id: 'ohdsi-workshop',
+    title: 'Workshop Tutorial: OHDSI for Real-World Evidence',
+    format: 'session',
     startTime: '10:30 AM',
     endTime: '11:45 AM',
-    description: 'Choose from three parallel tracks exploring different aspects of AI for STI prevention and control.',
-    track: 'all',
+    description: 'A condensed, hands-on tutorial inspired by Columbia’s OHDSI Summer School introducing the OHDSI community, open-source tools, and practical approaches to working with observational health data and generating real-world evidence.',
+  speakers: ['speaker-6', 'speaker-7'],
   },
   {
     id: 'panel',
@@ -390,24 +390,24 @@ const agenda2026: Session[] = [
 // -----------------------------------------------------------------------------
 
 const breakoutTracks2026: BreakoutTrack[] = [
-  {
-    id: 'track-a',
-    label: 'A',
-    title: 'Diagnostics & Imaging',
-    description: 'Explore AI applications in STI diagnostics including computer vision for lesion identification, automated lab result interpretation, and point-of-care testing innovations.',
-  },
-  {
-    id: 'track-b',
-    label: 'B',
-    title: 'Surveillance & Predictive Modeling',
-    description: 'Discuss AI-driven approaches to STI surveillance, outbreak prediction, contact tracing optimization, and population-level trend analysis.',
-  },
-  {
-    id: 'track-c',
-    label: 'C',
-    title: 'Ethics, Bias & Equity in AI for STIs',
-    description: 'Examine ethical considerations, potential biases in AI systems, and strategies for ensuring equitable outcomes across diverse populations.',
-  },
+ // {
+ //   id: 'track-a',
+ //   label: 'A',
+ //   title: 'Diagnostics & Imaging',
+ //   description: 'Explore AI applications in STI diagnostics including computer vision for lesion identification, automated lab result interpretation, and point-of-care testing innovations.',
+//  },
+//  {
+//    id: 'track-b',
+//    label: 'B',
+//    title: 'Surveillance & Predictive Modeling',
+//    description: 'Discuss AI-driven approaches to STI surveillance, outbreak prediction, contact tracing optimization, and population-level trend analysis.',
+//  },
+//  {
+//    id: 'track-c',
+//    label: 'C',
+//    title: 'Ethics, Bias & Equity in AI for STIs',
+//    description: 'Examine ethical considerations, potential biases in AI systems, and strategies for ensuring equitable outcomes across diverse populations.',
+//  },
 ];
 
 // -----------------------------------------------------------------------------
@@ -634,25 +634,30 @@ export const whatToExpectCards = [
     description: 'Hear from leading experts at the intersection of AI, infectious diseases, and public health.',
     icon: 'presentation',
   },
-  {
-    title: 'Breakout Sessions',
-    description: 'Dive deep into specialized topics with interactive, focused discussions.',
-    icon: 'users',
-  },
+/  {
+/    title: 'Breakout Sessions',
+/    description: 'Dive deep into specialized topics with interactive, focused discussions.',
+/    icon: 'users',
+/  },
   {
     title: 'Panel & Q&A',
     description: 'Engage with diverse perspectives from clinicians, researchers, and advocates.',
     icon: 'messages',
   },
   {
-    title: 'Poster Showcase',
-    description: 'Explore cutting-edge trainee research in AI and informatics for infectious diseases.',
-    icon: 'layout',
+    title: 'OHDSI Workshop Tutorial',
+  description: 'Join a condensed tutorial inspired by Columbia’s OHDSI Summer School on observational health data science and real-world evidence.',
+    icon: 'users',
   },
   {
     title: 'Methods & Implementation',
     description: 'Learn practical approaches for deploying AI in clinical and public health settings.',
     icon: 'code',
+  },
+  {
+    title: 'Poster Showcase',
+    description: 'Explore cutting-edge trainee research in AI and informatics for infectious diseases.',
+    icon: 'layout',
   },
   {
     title: 'Networking Reception',
