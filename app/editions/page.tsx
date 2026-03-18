@@ -125,7 +125,7 @@ export default function EditionsPage() {
           <div className="mt-16 bg-secondary p-8 rounded-lg">
             <h3 className="text-2xl font-bold text-primary mb-4">About the RAIIDIUS Series</h3>
             <p className="text-foreground mb-4 leading-relaxed">
-              RAIIDIUS (Responsible AI for Infectious Diseases using Data Science & Informatics for Understanding & Surveillance) is an annual symposium series dedicated to advancing responsible artificial intelligence and informatics in infectious disease prevention, diagnosis, surveillance, and treatment.
+              RAIIDIUS (Responsible AI for Infectious Diseases Understanding & Surveillance) is an annual symposium series dedicated to advancing responsible artificial intelligence and informatics in infectious disease prevention, diagnosis, surveillance, and treatment.
             </p>
             <p className="text-foreground mb-4 leading-relaxed">
               Each year, we convene multidisciplinary experts, clinicians, public health leaders, and early-career professionals to explore how AI can address real-world challenges in specific infectious disease domains. Our focus on responsible innovation ensures that technological advances prioritize equity, implementation feasibility, and ethical considerations.
