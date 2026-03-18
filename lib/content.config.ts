@@ -276,7 +276,7 @@ const speakers2026: Speaker[] = [
     title: 'Assistant Professor of Medicine at CUIMC',
     role: 'panelist',
     bio: 'Pierre Elias is an Assistant Professor in the Division of Cardiology and the Department of Biomedical Informatics at Columbia University Irving Medical Center, where he practices as a general cardiologist. He is also the Medical Director for Artificial Intelligence at NewYork-Presbyterian. His research lab develops machine learning technologies for medical imaging to improve the detection and management of cardiovascular disease. Dr. Elias received his medical degree at Duke University School of Medicine in North Carolina. He completed his residency in Internal Medicine and fellowship in Cardiovascular Disease at NewYork-Presbyterian/Columbia University Irving Medical Center through the Clinician-Scientist Pathway. He completed his postdoc under Dr. Adler Perotte in the Department of Biomedical Informatics. He has been named a STAT News Wunderkind highlighting 20 of the most innovative junior researchers in the country and has received the Emerging Generation Award from the American Society of Clinical Investigation. He was previously a data scientist at Lumiata, helping develop Google's Knowledge Graph for Health.',
-    keywords: ['Deep Learning','Medical Imaging','Clinical Informatics', 'General Cardiology'],
+    keywords: ['Deep Learning', 'Medical Imaging', 'Clinical Informatics', 'General Cardiology'],
     headshot: '/raiidius/speakers/pierre-elias.jpg',
   },
 ];
@@ -349,7 +349,7 @@ const agenda2026: Session[] = [
     startTime: '11:45 AM',
     endTime: '12:45 PM',
     description: '"Implementing AI in Clinical and Public Health STI Practice" — Panel includes clinicians, public health leaders, and community advocates discussing real-world implementation challenges and opportunities.',
-    speakers: ['speaker-4', 'speaker-5', 'speaker-6'],
+    speakers: ['speaker-4', 'speaker-5', 'speaker-6','speaker-11'],
   },
   {
     id: 'lunch-poster',
