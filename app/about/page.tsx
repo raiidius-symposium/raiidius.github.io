@@ -10,9 +10,15 @@ import { siteConfig, anticipatedOutcomes } from '@/lib/content.config';
 const organizingCommittee = [
   {
     name: 'Harry Reyes Nieva, PhD, MAS',
-    role: 'Founder and General Chair',
+    role: 'Founder & General Chair',
     affiliation: 'Columbia University',
     title: 'Assistant Professor, Department of Biomedical Informatics',
+  },
+  {
+    name: 'Safura Abdool Karim, PhD, LLM',
+    role: 'Program Committee',
+    affiliation: 'Columbia Mailman School of Public Health, Heilbrunn Department of Population and Family Health',
+    title: 'Adjunct Assistant Professor',
   },
   {
     name: 'Delivette Castor, PhD, MPH, MSc',
@@ -21,11 +27,29 @@ const organizingCommittee = [
     title: 'Title TBD',
   },
   {
-    name: 'Jason Zucker, MD, MS',
+    name: 'Craig Heck, PhD, MPH',
     role: 'Program Committee',
-    affiliation: 'Columbia University',
-    title: 'Title TBD',
-  }
+    affiliation: 'CUIMC Division of Infectious Diseases',
+    title: 'Postdoctoral Research Scientist',
+  },
+  {
+    name: 'Preeti Pathela, DrPH, MPH',
+    role: 'Program Committee',
+    affiliation: 'NYC Department of Health and Mental Hygiene',
+    title: 'Director of Research and Evaluation, Bureau of Sexually Transmitted Infections',
+  },
+  {
+    name: 'Magdalena E. Sobieszczyk, MD, MPH',
+    role: 'Program Committee',
+    affiliation: 'CUIMC Division of Infectious Diseases',
+   title: 'Harold C. Neu Professor of Infectious Diseases and Chief of Infectious Diseases at CUIMC',
+  },
+  {
+    name: 'Jason E. Zucker, MD, MS',
+    role: 'Program Committee',
+    affiliation: 'CUIMC Division of Infectious Diseases',
+    title: 'Assistant Professor of Medicine at CUIMC',
+  },
 ];
 
 const outcomeIcons: Record<string, typeof Target> = {
