@@ -250,16 +250,9 @@ const speakers2026: Speaker[] = [
     bio: 'Dr. Sobieszczyk is the Harold Neu Professor of Infectious Diseases (in Medicine) at the Columbia University Medical Center. She is the Chief of Infectious Diseases at the Columbia University Irving Medical Center in New York. Dr. Sobieszczyk is a clinical virologist and the principal investigator of the NIH-funded Columbia Collaborative Clinical Trials Unit which has been advancing the science of HIV and emerging infections like SARS-CoV-2.',
     keywords: ['Clinical Virology', 'HIV Clinical Trials', 'HIV Vaccines', 'HIV Care'],
     headshot: '/raiidius/speakers/magdalena-sobieszczyk.jpg',
-  },
-//  {
-//    id: 'speaker-10',
-//    name: 'Karintha Holifield, MD',
-//    affiliation: 'HousingWorks',
-//    title: 'Medical Director',
-//    role: 'panelist',
-//    bio: 'Dr. Holifield is a board-certified internist and medical director of the Housing Works 125th Street Community Health Center.',
-//    keywords: ['Community Advocacy', 'Patient Engagement', 'Health Access', 'Ethics'],
+  }
 ];
+
 
 // -----------------------------------------------------------------------------
 // Agenda for 2026
