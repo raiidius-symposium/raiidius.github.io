@@ -1,16 +1,9 @@
 import type { Metadata, Viewport } from 'next';
-import { Inter } from 'next/font/google';
-import { Analytics } from '@vercel/analytics/next';
 import { EditionProvider } from '@/lib/edition-context';
 import { SiteHeader } from '@/components/site-header';
 import { SiteFooter } from '@/components/site-footer';
 import { siteConfig } from '@/lib/content.config';
 import './globals.css';
-
-const inter = Inter({ 
-  subsets: ['latin'],
-  variable: '--font-sans',
-});
 
 export const metadata: Metadata = {
   title: {
@@ -74,15 +67,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={inter.variable}>
-      <body className="font-sans antialiased min-h-screen flex flex-col">
-        <EditionProvider>
-          <SiteHeader />
-          <main className="flex-1">{children}</main>
-          <SiteFooter />
-        </EditionProvider>
-        <Analytics />
-      </body>
-    </html>
+<html lang="en">
+  <body className="font-sans antialiased min-h-screen flex flex-col">
+    <EditionProvider>
+      <SiteHeader />
+      <main className="flex-1">{children}</main>
+      <SiteFooter />
+    </EditionProvider>
+  </body>
+</html>
   );
 }
