@@ -616,11 +616,11 @@ export const whatToExpectCards = [
     description: 'Hear from leading experts at the intersection of AI, infectious diseases, and public health.',
     icon: 'presentation',
   },
-/  {
-/    title: 'Breakout Sessions',
-/    description: 'Dive deep into specialized topics with interactive, focused discussions.',
-/    icon: 'users',
-/  },
+//  {
+//    title: 'Breakout Sessions',
+//    description: 'Dive deep into specialized topics with interactive, focused discussions.',
+//    icon: 'users',
+//  },
   {
     title: 'Panel & Q&A',
     description: 'Engage with diverse perspectives from clinicians, researchers, and advocates.',
