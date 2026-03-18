@@ -108,7 +108,7 @@ export default function ProgramPage() {
   const availableFormats = useMemo(() => {
     const base = ['all'];
     const seen = new Set(currentEdition.agenda.map((session) => session.format));
-    const ordered = ['keynote', 'breakout', 'panel', 'poster', 'session', 'roundtable', 'reception', 'remarks', 'lunch', 'break', 'registration'];
+    const ordered = ['registration','remarks', 'keynote', 'breakout', 'break','session', 'panel', 'lunch', 'poster', 'roundtable', 'reception',  ];
     return [...base, ...ordered.filter((format) => seen.has(format))];
   }, [currentEdition.agenda]);
 

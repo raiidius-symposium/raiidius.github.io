@@ -145,7 +145,7 @@ const partners2026: Partner[] = [
     id: 'dbmi',
     name: 'CUIMC Department of Biomedical Informatics',
     shortName: 'CUIMC DBMI',
-    description: 'The Department of Biomedical Informatics at Columbia University Irving Medical Center (CUIMC) advances the theoretical and practical advances in AI, data science, and human-computer interaction, which will lead to better health and new biomedical knowledge.',
+    description: 'The Department of Biomedical Informatics at Columbia University Irving Medical Center (CUIMC) pursues theoretical and practical advances in AI, data science, and human-computer interaction, which will lead to better health and new biomedical knowledge.',
     url: 'https://www.dbmi.columbia.edu/',
   },
   {
@@ -197,7 +197,7 @@ const speakers2026: Speaker[] = [
     name: 'Magdalena E. Sobieszczyk, MD, MPH',
     affiliation: 'CUIMC Division of Infectious Diseases',
    title: 'Harold C. Neu Professor of Infectious Diseases and Chief of Infectious Diseases at CUIMC',
-    role: ['panelist'],
+    role: ['moderator'],
     bio: 'Dr. Sobieszczyk is the Harold Neu Professor of Infectious Diseases (in Medicine) at the Columbia University Medical Center. She is the Chief of Infectious Diseases at the Columbia University Irving Medical Center in New York. Dr. Sobieszczyk is a clinical virologist and the principal investigator of the NIH-funded Columbia Collaborative Clinical Trials Unit which has been advancing the science of HIV and emerging infections like SARS-CoV-2.',
     keywords: ['Clinical Virology', 'HIV Clinical Trials', 'HIV Vaccines', 'HIV Care'],
     headshot: '/raiidius/speakers/magdalena-sobieszczyk.jpg',
@@ -275,7 +275,7 @@ const agenda2026: Session[] = [
     format: 'remarks',
     startTime: '8:30 AM',
     endTime: '8:45 AM',
-    description: 'Dr. Reyes Nieva presents the vision and key objectives for RAIIDIUS 2026.',
+    description: 'RAIIDIUS Founder and Program Chair, Dr. Harry Reyes Nieva, presents the vision and key objectives for RAIIDIUS 2026 and beyond.',
     speakers: ['speaker-1'],
   },
   {
@@ -284,7 +284,7 @@ const agenda2026: Session[] = [
     format: 'keynote',
     startTime: '8:45 AM',
     endTime: '9:30 AM',
-    description: 'Dr. Zucker presents case examples demonstrating AI applications in STI diagnosis and treatment decision support.',
+    description: 'Dr. Jason Zucker presents case examples demonstrating AI applications in STI diagnosis and treatment decision support.',
     speakers: ['speaker-3'],
   },
   {
@@ -293,7 +293,7 @@ const agenda2026: Session[] = [
     format: 'keynote',
     startTime: '9:30 AM',
     endTime: '10:15 AM',
-    description: 'Dr. Castor shares AI-driven opportunities and implementation concerns for STI surveillance and outbreak response.',
+    description: 'Dr. Delivette Castor shares AI-driven opportunities and implementation concerns for STI surveillance and outbreak response.',
     speakers: ['speaker-2'],
   },
   {
@@ -326,11 +326,11 @@ const agenda2026: Session[] = [
   },
   {
     id: 'lunch-poster',
-    title: 'Boxed Lunch & Poster Session',
+    title: 'Boxed Lunch & Poster Preview',
     format: 'lunch',
     startTime: '12:45 PM',
     endTime: '1:45 PM',
-    description: 'Enjoy lunch while viewing poster presentations showcasing AI-based STI research by trainees.',
+    description: 'Enjoy lunch while previewing poster presentations showcasing AI-based STI research by trainees.',
     location: 'VEC 401 Gallery',
   },
   {
@@ -374,7 +374,7 @@ const agenda2026: Session[] = [
     format: 'remarks',
     startTime: '5:00 PM',
     endTime: '5:15 PM',
-    description: 'Summary takeaways, thank ASTDA for sponsorship, and next steps for the RAIIDIUS community.',
+    description: 'Dr. Reyes Nieva presents summary takeaways and next steps for the RAIIDIUS community.',
   },
   {
     id: 'reception',
@@ -655,7 +655,7 @@ export const whatToExpectCards = [
 
 export const submissionGuidelines = {
   formats: ['Oral Presentation (15 minutes)', 'Poster Presentation'],
-  wordLimit: 300,
+  wordLimit: 500,
   categories: [
     'Diagnostics & Point-of-Care Testing',
     'Surveillance & Outbreak Detection',

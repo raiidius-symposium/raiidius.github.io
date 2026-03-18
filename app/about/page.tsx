@@ -220,8 +220,8 @@ export default function AboutPage() {
           <Card>
             <CardContent className="pt-6">
               <p className="text-muted-foreground leading-relaxed">
-                {siteConfig.seriesAcronym} {currentEdition.year} is hosted by{' '}
-                <strong className="text-foreground">the Division of Infectious Diseases at Columbia University Irving Medical Center (CUIMC)</strong>.
+                {siteConfig.seriesAcronym} {currentEdition.year} is hosted by the{' '}
+                <strong className="text-foreground">Division of Infectious Diseases at Columbia University Irving Medical Center (CUIMC)</strong>.
               </p>
             </CardContent>
           </Card>
