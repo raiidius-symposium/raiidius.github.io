@@ -9,29 +9,23 @@ import { siteConfig, anticipatedOutcomes } from '@/lib/content.config';
 // Placeholder organizing committee
 const organizingCommittee = [
   {
-    name: 'Dr. Jason Reyes Nieva',
-    role: 'Chair',
+    name: 'Harry Reyes Nieva, PhD, MAS',
+    role: 'Founder and General Chair',
     affiliation: 'Columbia University',
     title: 'Assistant Professor, Department of Biomedical Informatics',
   },
   {
-    name: 'Committee Member',
-    role: 'Co-Chair',
-    affiliation: 'Institution TBD',
+    name: 'Delivette Castor, PhD, MPH, MSc',
+    role: 'Program Committee',
+    affiliation: 'Columbia University',
     title: 'Title TBD',
   },
   {
-    name: 'Committee Member',
+    name: 'Jason Zucker, MD, MS',
     role: 'Program Committee',
-    affiliation: 'Institution TBD',
+    affiliation: 'Columbia University',
     title: 'Title TBD',
-  },
-  {
-    name: 'Committee Member',
-    role: 'Program Committee',
-    affiliation: 'Institution TBD',
-    title: 'Title TBD',
-  },
+  }
 ];
 
 const outcomeIcons: Record<string, typeof Target> = {
@@ -196,10 +190,7 @@ export default function AboutPage() {
             <CardContent className="pt-6">
               <p className="text-muted-foreground leading-relaxed">
                 {siteConfig.seriesAcronym} {currentEdition.year} is hosted by{' '}
-                <strong className="text-foreground">Columbia University Irving Medical Center (CUIMC)</strong> and the{' '}
-                <strong className="text-foreground">Columbia Vagelos College of Physicians and Surgeons (VP&S)</strong>, 
-                in partnership with the CUIMC Division of Infectious Diseases, the Department of 
-                Biomedical Informatics, and the AI@VP&S Initiative.
+                <strong className="text-foreground">the Division of Infectious Diseases at Columbia University Irving Medical Center (CUIMC)</strong>.
               </p>
             </CardContent>
           </Card>

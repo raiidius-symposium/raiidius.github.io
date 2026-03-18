@@ -543,7 +543,7 @@ export const editions: Edition[] = [
     sponsorUrl: 'https://www.astda.org/',
     registrationUrl: '#register',
     submissionUrl: '#submit',
-    contactEmail: 'raiidius@columbia.edu',
+    contactEmail: 'raiidius@cumc.columbia.edu',
     isActive: true,
     isUpcoming: true,
     agenda: agenda2026,
