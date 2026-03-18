@@ -11,19 +11,19 @@ const organizingCommittee = [
   {
     name: 'Harry Reyes Nieva, PhD, MAS',
     role: 'Founder & General Chair',
-    affiliation: 'Columbia University',
+    affiliation: 'CUIMC Division of Infectious Diseases',
     title: 'Incoming Assistant Professor',
   },
   {
     name: 'Safura Abdool Karim, PhD, LLM',
     role: 'Program Committee',
-    affiliation: 'Columbia Mailman School of Public Health, Heilbrunn Department of Population and Family Health',
+    affiliation: 'Columbia Mailman SPH, Heilbrunn Department of Population and Family Health',
     title: 'Adjunct Assistant Professor',
   },
   {
     name: 'Delivette Castor, PhD, MPH, MSc',
     role: 'Program Committee',
-    affiliation: 'Columbia University',
+    affiliation: 'CUIMC Division of Infectious Diseases',
     title: 'Assistant Professor of Medical Sciences (in Medicine and in Epidemiology)',
   },
   {
