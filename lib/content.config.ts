@@ -169,7 +169,7 @@ const speakers2026: Speaker[] = [
     role: ['general-chair', 'organizer', 'keynote'],
     bio: 'Dr. Reyes Nieva is a biomedical informatician specializing in artificial intelligence (AI) in medicine and public health. His research aims to advance precision health for all populations by harnessing AI and informatics to accelerate scientific knowledge discovery and translation at scale, strengthen next-generation learning health systems, and interrogate the ethical, legal, and social considerations necessary for the development of human-centered AI.',
     keywords: ['Human-Centered AI', 'Precision Health', 'Learning Health Systems', 'Clinical and Public Health Informatics'],
-    headshot: '/speakers/harry-reyes-nieva.jpg',
+    headshot: '/raiidius/speakers/harry-reyes-nieva.jpg',
   },
   {
     id: 'speaker-2',
@@ -179,7 +179,7 @@ const speakers2026: Speaker[] = [
     role: ['program-chair', 'keynote'],
     bio: 'Dr. Castor is Assistant Professor (in Medicine), Department of Medicine, Division of Infectious Diseases, the Columbia University Medical Center. She is an epidemiologist who studies how to deliver public health innovations at scale by examining the unique and joint effects of biomedical, behavioral and structural factors that affect infectious diseases in priority populations in low- and middle-income country settings (LMICS), and in marginalized populations in the US. She joined the faculty of Columbia University Irving Medical Center (CUIMC) in November 2019. Prior, she led implementation research activities within the President’s Plan for AIDS Relief (PEPFAR) at two U.S. government agencies; as Senior Epidemiologist and eventually, acting chief of Implementation Science branch, the Office of HIV/AIDS (OHA), United States Agency for International Development (USAID); and Senior Epidemiologist in the Office of Research and Science, the Office of the Global AIDS Coordinator, Department of State (S/GAC). She worked within PEPFAR-supported programs to design, implement and evaluate comprehensive HIV interventions, introduce and scale-up novel prevention technologies. These often involved designing large community trials utilizing quantitative and qualitative methods, stakeholder engagement, capacity building, analysis, dissemination and utilization of study findings through coordination with policymakers and program-planners. Her HIV research involves intersecting areas of interest such as women’s and reproductive health, health disparities, mental health, nutrition, cervical cancer and other emerging infections (i.e., SARS-CoV-2).',
     keywords: ['Epidemiology', 'Implementation Science', 'Surveillance', 'Public Health'],
-    headshot: '/speakers/delivette-castor.jpg',
+    headshot: '/raiidius/speakers/delivette-castor.jpg',
   },
   {
     id: 'speaker-3',
@@ -189,7 +189,7 @@ const speakers2026: Speaker[] = [
     role: ['program-chair', 'keynote'],
     bio: 'Dr. Zucker is an Assistant Professor of Medicine in the Division of Infectious Diseases at Columbia University Medical Center and Assistant Medical Director of the New York City STD Prevention Training Center. Dr. Zucker trained as a combined adult and pediatric infectious diseases physician and is an experienced HIV, HIV prevention, and sexual health care provider providing status-neutral care to patients of all ages in the NewYork-Presbyterian/Columbia Comprehensive Health Program Sexual Health Clinic. His research focuses on the intersection of data science, behavioral science, and implementation science, focusing on developing and testing ways to optimize engagement in the sexual health cascade of care for individuals both living with or at risk of sexually transmitted infections.',
     keywords: ['Infectious Diseases', 'Sexual Health Care', 'Data Science', 'Behavioral Science'],
-    headshot: '/speakers/jason-zucker.jpg',
+    headshot: '/raiidius/speakers/jason-zucker.jpg',
   },
   {
     id: 'speaker-4',
@@ -199,7 +199,7 @@ const speakers2026: Speaker[] = [
     role: 'panelist',
     bio: 'Dr. Abdool Karim is a public health lawyer whose research focuses on using the law to improve health outcomes. Safura is currently the Oxford-Hopkins GLIDE postdoctoral fellow at the Berman Institute, Johns Hopkins University and an Adjunct-Assistant Professor at the Mailman School of Public Health, Columbia University. Safura holds chambers at the Bridge Group of Advocates and is a member of the Johannesburg Society of Advocates and the Pan African Bar Association. Safura has been involved in researching and advocating on issues in COVID-19, including equitable vaccine access, human rights and criminalization of COVID-19. Safura has done extensive work on the legal issues on COVID-19 vaccines, serving on the DPME/NRF Expert Group developing the COVID-19 Country Report and the Africa CDC’s COVID-19 Vaccine Delivery Alliance and the Technology and Intellectual Property Workstream of the Partnerships for African Vaccine Manufacturing. Safura also worked with the Occupational Health and Safety Workstream of the NDOH Ministerial Advisory Committee on COVID-19 to provide advice on streamlining the pricing of COVID-19 testing. Safura has also provided technical support for key litigation and assisted in the development of workplace mandatory vaccination policies.',
     keywords: ['Public Health', 'Implementation', 'Digital Health', 'Urban Health'],
-    headshot: '/speakers/safura-abdool-karim.jpeg',
+    headshot: '/raiidius/speakers/safura-abdool-karim.jpeg',
  },
   {
     id: 'speaker-5',
@@ -209,7 +209,7 @@ const speakers2026: Speaker[] = [
     role: ['organizer','presenter'],
     bio: 'Dr. Heck is a postdoctoral research scientist in Columbia University’s Division of Infectious Diseases. He is an epidemiologist with a decade of experience researching HIV prevention strategies for key and vulnerable populations in eastern and southern Africa. His research primarily seeks to improve the availability, access, use, and continuation of HIV prevention services, methods, and interventions using social, behavioral, and implementation science approaches. Recently, he has been examining the dynamics of risk perception and its influence on risk-reduction behaviors. Dr. Heck is also interested in identifying and addressing social, structural, and systemic drivers of health disparities. Dr. Heck holds a PhD in epidemiology and an MPH in population and family health, both from the Columbia University Mailman School of Public Health.',
     keywords: ['Epidemiology','HIV Prevention','Risk Perception','Risk-Reduction Behaviors'],
-    headshot: '/speakers/craig-heck.jpg',
+    headshot: '/raiidius/speakers/craig-heck.jpg',
   },
   {
     id: 'speaker-6',
@@ -219,7 +219,7 @@ const speakers2026: Speaker[] = [
     role: 'presenter',
     bio: 'Dr. Hripcsak is Vivian Beaumont Allen Professor in the Department of Biomedical Informatics at Columbia University. He is a board-certified internist with degrees in chemistry, medicine, and biostatistics. Dr. Hripcsak’s current research focus is on the clinical information stored in electronic health records and on the development of next-generation health record systems. Using nonlinear time series analysis, machine learning, knowledge engineering, and natural language processing, he is developing the methods necessary to support clinical research and patient safety initiatives. For his work in precision medicine, he serves as a PI on Columbia’s eMERGE grant, as a PI on Columbia’s regional recruitment center for the All of Us precision medicine program, and as site PI for Columbia’s role on the All of Us Data and Research Center. He co-chaired the Meaningful Use Workgroup of U.S. Department of Health and Human Services’s Office of the National Coordinator of Health Information Technology; it defines the criteria by which health care providers collect incentives for using electronic health records. He led the effort to create the Arden Syntax, a language for representing health knowledge that has become a national standard. Dr. Hripcsak is a fellow of the National Academy of Medicine, the American College of Medical Informatics, and the New York Academy of Medicine, and he chaired the U.S. National Library of Medicine’s Biomedical Library and Informatics Review Committee. He has published over 350 papers.',
     keywords: ['Electronic Health Records', 'Causal Inference', 'Decision Support', 'Observational Research'],
-    headshot: '/speakers/george-hripcsak.jpg',
+    headshot: '/raiidius/speakers/george-hripcsak.jpg',
   },
   {
     id: 'speaker-7',
@@ -229,7 +229,7 @@ const speakers2026: Speaker[] = [
     role: 'presenter',
     bio: 'Dr. Ostropolets is an Associate Director at Janssen Research and Development, a Johnson & Johnson Company where she works on methods to advance observational research for medical products safety. More broadly, as Adjunct Assistant Professor of Biomedical Informatics at Columbia University and a long-standing OHDSI collaborator, she designs, builds and disseminates frameworks, approaches and tools for minimizing bias in observational research with a specific focus on patient phenotyping. Since 2022, she has led the OHDSI Vocabulary improvement initiative focused on improving the quality, fit-for-use, and transparency of the OHDSI Standardized Vocabularies. Dr. Ostropolets received her medical degree and completed her residency at Kharkiv National Medical University. Before joining Janssen, she was Director, Head of Innovation Lab for Odysseus Data Services coordinating business intelligence initiative for harmonization and visualization of real-world data.',
     keywords: ['Real-World Evidence', 'Clinical Informatics', 'Knowledge Engineering', 'Medical Ontologies'],
-    headshot: '/speakers/anna-ostropolets.jpg',
+    headshot: '/raiidius/speakers/anna-ostropolets.jpg',
   },
   {
     id: 'speaker-8',
@@ -239,7 +239,7 @@ const speakers2026: Speaker[] = [
     role: 'panelist',
     bio: 'Dr. Pathela is the Executive Director of the STI Program in the Bureau of Hepatitis, HIV, and STI at the New York City Department of Health and Mental Hygiene. She has overall responsibility for directing, evaluating, and coordinating the activities of the Program, which consists of roughly 90 staff who conduct work in STI program implementation, surveillance and field operations, and epidemiology, research and evaluation. She serves on the American STD Association’s Board of Directors and as an Associate Editor of the journal Sexually Transmitted Diseases.',
     keywords: ['Health Equity', 'Ethics', 'Bias in AI', 'Community Health'],
-    headshot: '/speakers/preeti-pathela.png',
+    headshot: '/raiidius/speakers/preeti-pathela.png',
   },
   {
     id: 'speaker-9',
@@ -249,7 +249,7 @@ const speakers2026: Speaker[] = [
     role: ['organizer', 'moderator'],
     bio: 'Dr. Sobieszczyk is the Harold Neu Professor of Infectious Diseases (in Medicine) at the Columbia University Medical Center. She is the Chief of Infectious Diseases at the Columbia University Irving Medical Center in New York. Dr. Sobieszczyk is a clinical virologist and the principal investigator of the NIH-funded Columbia Collaborative Clinical Trials Unit which has been advancing the science of HIV and emerging infections like SARS-CoV-2.',
     keywords: ['Clinical Virology', 'HIV Clinical Trials', 'HIV Vaccines', 'HIV Care'],
-    headshot: '/speakers/magdalena-sobieszczyk.jpg',
+    headshot: '/raiidius/speakers/magdalena-sobieszczyk.jpg',
   }
 ];
 
