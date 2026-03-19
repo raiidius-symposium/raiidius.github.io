@@ -33,16 +33,16 @@ export function HeroSection() {
           {/* Tagline */}
 <p className="mb-8 text-lg text-muted-foreground md:text-xl leading-relaxed max-w-3xl mx-auto">
   <span>
-    <strong className="font-semibold text-foreground">R</strong>esponsible{' '}
-    <strong className="font-semibold text-foreground">AI</strong> for{' '}
-    <strong className="font-semibold text-foreground">I</strong>nfectious{' '}
-    <strong className="font-semibold text-foreground">D</strong>isease
+    <strong className="font-semibold text-primary">R</strong>esponsible{' '}
+    <strong className="font-semibold text-primary">AI</strong> for{' '}
+    <strong className="font-semibold text-primary">I</strong>nfectious{' '}
+    <strong className="font-semibold text-primary">D</strong>isease
   </span>
   <br />
   <span>
-    <strong className="font-semibold text-foreground">I</strong>ntervention,{' '}
-    <strong className="font-semibold text-foreground">U</strong>nderstanding, &amp;{' '}
-    <strong className="font-semibold text-foreground">S</strong>urveillance
+    <strong className="font-semibold text-primary">I</strong>ntervention,{' '}
+    <strong className="font-semibold text-primary">U</strong>nderstanding, &amp;{' '}
+    <strong className="font-semibold text-primary">S</strong>urveillance
   </span>
 </p>
 
