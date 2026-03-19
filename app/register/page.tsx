@@ -77,7 +77,7 @@ export default function RegisterPage() {
               <p className="mb-6 text-muted-foreground">
                 Attendance is free. Advance registration is encouraged.
               </p>
-              <Button asChild size="lg" className="gap-2">
+<Button asChild size="lg" className="gap-2">
   <a
     href={currentEdition.registrationUrl}
     target="_blank"
@@ -86,6 +86,7 @@ export default function RegisterPage() {
     Register Now
     <ArrowRight className="h-4 w-4" />
   </a>
+</Button>
 </Button>
             </>
           ) : (

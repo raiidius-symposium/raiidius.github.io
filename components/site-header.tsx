@@ -71,12 +71,12 @@ export function SiteHeader() {
           {/* CTA Buttons - Desktop */}
           <div className="hidden items-center gap-2 md:flex">
 <Button asChild size="sm">
-  <Link href={currentEdition.registrationUrl || '/register'}>
+  <Link href="/register"}>
     Register
   </Link>
 </Button>
 <Button asChild variant="outline" size="sm">
-  <Link href={currentEdition.submissionUrl || '/abstracts'}>
+  <Link href="/abstracts">
     Submit
   </Link>
 </Button>
@@ -111,7 +111,7 @@ export function SiteHeader() {
               <div className="mt-6 flex flex-col gap-2 border-t pt-6">
 <Button asChild>
   <Link
-    href={currentEdition.registrationUrl || '/register'}
+    href={'/register'}
     onClick={() => setMobileMenuOpen(false)}
   >
     Register
@@ -119,7 +119,7 @@ export function SiteHeader() {
 </Button>
 <Button asChild variant="outline">
   <Link
-    href={currentEdition.submissionUrl || '/abstracts'}
+    href="/abstracts"
     onClick={() => setMobileMenuOpen(false)}
   >
     Submit Abstract
