@@ -87,7 +87,6 @@ export default function RegisterPage() {
     <ArrowRight className="h-4 w-4" />
   </a>
 </Button>
-</Button>
             </>
           ) : (
             <>

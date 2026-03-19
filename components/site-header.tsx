@@ -71,7 +71,7 @@ export function SiteHeader() {
           {/* CTA Buttons - Desktop */}
           <div className="hidden items-center gap-2 md:flex">
 <Button asChild size="sm">
-  <Link href="/register"}>
+  <Link href="/register">
     Register
   </Link>
 </Button>
