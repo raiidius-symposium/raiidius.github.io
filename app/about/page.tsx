@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { useEdition } from '@/lib/edition-context';
 import { siteConfig, anticipatedOutcomes } from '@/lib/content.config';
+import { PartnersSection } from '@/components/home/partners-section';
 
 // Placeholder organizing committee
 const organizingCommittee = [
@@ -243,6 +244,8 @@ export default function AboutPage() {
             </CardContent>
           </Card>
         </section>
+
+        <PartnersSection />
 
         {/* Contact */}
         <section className="rounded-lg border bg-muted/30 p-6 text-center">
