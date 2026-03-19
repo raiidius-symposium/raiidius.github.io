@@ -70,12 +70,12 @@ export function HeroSection() {
             {currentEdition.isActive ? (
               <>
 <Button asChild size="lg" className="min-w-[160px]">
-  <Link href="/register"}>
+  <Link href="/register">
     Register Now
   </Link>
 </Button>
 <Button asChild variant="outline" size="lg" className="min-w-[200px]">
-  <Link href="/abstracts"}>
+  <Link href="/abstracts">
     Submit Abstract
   </Link>
 </Button>
