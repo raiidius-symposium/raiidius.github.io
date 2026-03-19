@@ -31,10 +31,19 @@ export function HeroSection() {
           </h1>
           
           {/* Tagline */}
-          <p className="mb-8 text-lg text-muted-foreground md:text-xl leading-relaxed max-w-3xl mx-auto">
-  <span>Responsible AI for Infectious Disease</span>
+<p className="mb-8 text-lg text-muted-foreground md:text-xl leading-relaxed max-w-3xl mx-auto">
+  <span>
+    <strong className="font-semibold text-foreground">R</strong>esponsible{' '}
+    <strong className="font-semibold text-foreground">AI</strong> for{' '}
+    <strong className="font-semibold text-foreground">I</strong>nfectious{' '}
+    <strong className="font-semibold text-foreground">D</strong>isease
+  </span>
   <br />
-  <span>Intervention, Understanding, &amp; Surveillance</span>
+  <span>
+    <strong className="font-semibold text-foreground">I</strong>ntervention,{' '}
+    <strong className="font-semibold text-foreground">U</strong>nderstanding, &amp;{' '}
+    <strong className="font-semibold text-foreground">S</strong>urveillance
+  </span>
 </p>
 
           {/* Edition Badge */}
