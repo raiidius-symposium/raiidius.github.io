@@ -111,7 +111,7 @@ export function SiteFooter() {
             &copy; {new Date().getFullYear()} {siteConfig.seriesAcronym}. All rights reserved.
           </p>
           <p className="text-sm text-muted-foreground">
-            Hosted by Columbia University Irving Medical Center
+            Hosted by the Division of Infectious Diseases at Columbia University Irving Medical Center
           </p>
         </div>
       </div>

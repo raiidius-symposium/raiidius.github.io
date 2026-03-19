@@ -123,8 +123,8 @@ export const siteConfig = {
   seriesTagline: 'Responsible AI for Infectious Disease Intervention, Understanding, & Surveillance',
   defaultEditionYear: 2026,
   socialLinks: {
-    twitter: '#',
-    linkedin: '#',
+  //  twitter: '#',
+  //  linkedin: '#',
   },
   codeOfConductEmail: 'raiidius@cumc.columbia.edu',
 } as const;
@@ -371,7 +371,7 @@ const agenda2026: Session[] = [
   },
   {
     id: 'ohdsi-workshop',
-    title: 'Workshop Tutorial: Introduction to OHDSI and Real-World Evidence',
+    title: 'Workshop Tutorial: Introduction to OHDSI and Generating Real-World Evidence',
     format: 'session',
     startTime: '1:00 PM',
     endTime: '2:20 PM',

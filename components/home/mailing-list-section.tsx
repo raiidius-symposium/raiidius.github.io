@@ -10,15 +10,40 @@ export function MailingListSection() {
   const [email, setEmail] = useState('');
   const [status, setStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
+
+
+
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Placeholder handler - integrate with your email service
-    if (email) {
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxr-fkIRtfNQCesb2ZTP2_HdZMz-df88BP9YPFWiuvn7BfkRgYigv35h9sMHt7wPn-z/exec';
+
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  try {
+    const formData = new FormData();
+    formData.append('email', email);
+
+    const response = await fetch(SCRIPT_URL, {
+      method: 'POST',
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.ok) {
       setStatus('success');
       setEmail('');
       setTimeout(() => setStatus('idle'), 3000);
+    } else {
+      setStatus('error');
     }
-  };
+  } catch {
+    setStatus('error');
+  }
+};
 
   return (
     <section className="bg-primary py-16 md:py-24">
@@ -56,6 +81,12 @@ export function MailingListSection() {
               <ArrowRight className="h-4 w-4" />
             </Button>
           </form>
+
+{status === 'error' && (
+  <p className="mt-4 text-sm text-primary-foreground/90">
+    There was a problem subscribing. Please try again.
+  </p>
+)}
 
           {status === 'success' && (
             <p className="mt-4 text-sm text-primary-foreground/90">
