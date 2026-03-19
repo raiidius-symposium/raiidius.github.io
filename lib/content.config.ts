@@ -123,8 +123,8 @@ export const siteConfig = {
   seriesTagline: 'Responsible AI for Infectious Disease Intervention, Understanding, & Surveillance',
   defaultEditionYear: 2026,
   socialLinks: {
-  //  twitter: '#',
-  //  linkedin: '#',
+  	twitter: '',
+  	linkedin: '',
   },
   codeOfConductEmail: 'raiidius@cumc.columbia.edu',
 } as const;
