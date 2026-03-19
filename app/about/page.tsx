@@ -194,6 +194,19 @@ export default function AboutPage() {
           </div>
         </section>
 
+        {/* Host */}
+        <section className="mb-12">
+          <h2 className="mb-6 text-2xl font-bold">Host Institution</h2>
+          <Card>
+            <CardContent className="pt-6">
+              <p className="text-muted-foreground leading-relaxed">
+                {siteConfig.seriesAcronym} {currentEdition.year} is hosted by the{' '}
+                <strong className="text-foreground">Division of Infectious Diseases at Columbia University Irving Medical Center</strong>.
+              </p>
+            </CardContent>
+          </Card>
+        </section>
+
         {/* Organizing Committee */}
         <section className="mb-12">
           <h2 className="mb-6 text-2xl font-bold">Organizing Committee</h2>
@@ -230,19 +243,6 @@ export default function AboutPage() {
               </Card>
             ))}
           </div>
-        </section>
-
-        {/* Host */}
-        <section className="mb-12">
-          <h2 className="mb-6 text-2xl font-bold">Host Institutions</h2>
-          <Card>
-            <CardContent className="pt-6">
-              <p className="text-muted-foreground leading-relaxed">
-                {siteConfig.seriesAcronym} {currentEdition.year} is hosted by the{' '}
-                <strong className="text-foreground">Division of Infectious Diseases at Columbia University Irving Medical Center</strong>.
-              </p>
-            </CardContent>
-          </Card>
         </section>
 
         <PartnersSection />
