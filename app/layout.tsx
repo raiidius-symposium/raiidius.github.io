@@ -24,6 +24,16 @@ export const metadata: Metadata = {
     'Columbia University',
   ],
   authors: [{ name: siteConfig.seriesAcronym }],
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+      noimageindex: true,
+    },
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -67,14 +77,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-<html lang="en">
-  <body className="font-sans antialiased min-h-screen flex flex-col">
-    <EditionProvider>
-      <SiteHeader />
-      <main className="flex-1">{children}</main>
-      <SiteFooter />
-    </EditionProvider>
-  </body>
-</html>
+    <html lang="en">
+      <body className="font-sans antialiased min-h-screen flex flex-col">
+        <EditionProvider>
+          <SiteHeader />
+          <main className="flex-1">{children}</main>
+          <SiteFooter />
+        </EditionProvider>
+      </body>
+    </html>
   );
 }
