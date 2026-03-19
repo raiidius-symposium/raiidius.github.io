@@ -15,10 +15,10 @@ export default function HomePage() {
       <AboutSection />
       <WhatToExpectSection />
       <ThemesSection />
-      <ImportantDatesSection />
-      <ProgramPreviewSection />
+      {/* <ImportantDatesSection /> */}
+      {/* <ProgramPreviewSection /> */}
       <PartnersSection />
-      <SpeakersPreviewSection />
+      {/* <SpeakersPreviewSection /> */}
       <MailingListSection />
     </>
   );
