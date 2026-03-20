@@ -66,27 +66,44 @@ export default function VenuePage() {
           </Card>
         </section>
 
-        {/* Map Placeholder */}
-        <section className="mb-12">
-          <div className="aspect-video rounded-lg border bg-muted/30 flex items-center justify-center">
-            <div className="text-center p-8">
-              <MapPin className="mx-auto h-12 w-12 text-muted-foreground mb-4" />
-              <p className="text-muted-foreground mb-4">
-                Interactive map coming soon
-              </p>
-              <Button asChild variant="outline" size="sm">
-                <a
-                  href={`https://maps.google.com/?q=${encodeURIComponent(currentEdition.fullAddress)}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  View on Google Maps
-                </a>
-              </Button>
-            </div>
-          </div>
-        </section>
+<div className="mt-6 overflow-hidden rounded-xl border">
+    <img
+      src="/raiidius/vps-vec-exterior.jpg"
+      alt="Exterior view of the Vagelos Education Center"
+      className="h-auto w-full object-cover"
+    />
+  </div>
 
+        {/* Embedded Google Map */}
+<section className="mb-12">
+  <div className="overflow-hidden rounded-lg border">
+    <div className="aspect-video">
+      <iframe
+        title={`${currentEdition.venue} map`}
+        src={`https://www.google.com/maps?q=${encodeURIComponent(currentEdition.fullAddress)}&z=16&output=embed`}
+        width="100%"
+        height="100%"
+        style={{ border: 0 }}
+        allowFullScreen
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+        className="h-full w-full"
+      />
+    </div>
+  </div>
+  <div className="mt-3 flex justify-end">
+    <Button asChild variant="outline" size="sm">
+      <a
+        href={currentEdition.mapUrl || `https://maps.google.com/?q=${encodeURIComponent(currentEdition.fullAddress)}`}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Open in Google Maps
+        <ExternalLink className="ml-2 h-4 w-4" />
+      </a>
+    </Button>
+  </div>
+</section>
         {/* Getting Here */}
         <section className="mb-12">
           <h2 className="mb-6 text-2xl font-bold">Getting Here</h2>
