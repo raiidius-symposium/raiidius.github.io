@@ -654,7 +654,7 @@ export const navigationLinks = [
 export const whatToExpectCards = [
   {
     title: 'Keynote Presentations',
-    description: 'Hear from leading experts at the intersection of AI, infectious diseases, and public health.',
+    description: 'Hear from leading experts at the intersection of AI, informatics, and infectious diseases.',
     icon: 'presentation',
   },
 //  {
@@ -664,7 +664,7 @@ export const whatToExpectCards = [
 //  },
   {
     title: 'Panel & Q&A',
-    description: 'Engage with diverse perspectives from clinicians, researchers, and advocates.',
+    description: 'Engage with diverse perspectives from clinicians, researchers, and community partners.',
     icon: 'messages',
   },
   {
