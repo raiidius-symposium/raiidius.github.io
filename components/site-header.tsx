@@ -56,7 +56,7 @@ export function SiteHeader() {
             value={currentEdition.year.toString()}
             onValueChange={(value) => setEditionByYear(parseInt(value))}
           >
-            <SelectTrigger className="w-20 h-9">
+            <SelectTrigger className="h-9 w-[4.5rem] justify-center">
               <SelectValue />
             </SelectTrigger>
             <SelectContent>

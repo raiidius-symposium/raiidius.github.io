@@ -84,20 +84,40 @@ export default function WorkshopsPage() {
                 </div>
 
                 {workshopSpeakers.length > 0 && (
-                  <div>
-                    <h2 className="mb-4 text-lg font-semibold">Workshop Faculty</h2>
-                    <div className="grid gap-4 md:grid-cols-2">
-                      {workshopSpeakers.map((speaker) => (
-                        <div key={speaker.id} className="rounded-lg border p-4">
-                          <div className="font-medium">{speaker.name}</div>
-                          {speaker.title && <div className="text-sm text-muted-foreground">{speaker.title}</div>}
-                          <div className="mt-1 text-sm text-muted-foreground">{speaker.affiliation}</div>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                )}
-
+  <div>
+    <h2 className="mb-4 text-lg font-semibold">Workshop Faculty</h2>
+    <div className="grid gap-4 md:grid-cols-2">
+      {workshopSpeakers.map((speaker) => (
+        <div key={speaker.id} className="rounded-lg border p-4">
+          <div className="flex items-start gap-4">
+            <div className="h-16 w-16 shrink-0 overflow-hidden rounded-full bg-muted">
+              {speaker.headshot ? (
+                <img
+                  src={speaker.headshot}
+                  alt={speaker.name}
+                  className="h-full w-full object-cover"
+                />
+              ) : (
+                <div className="flex h-full w-full items-center justify-center text-xs text-muted-foreground">
+                  No photo
+                </div>
+              )}
+            </div>
+            <div>
+              <div className="font-medium">{speaker.name}</div>
+              {speaker.title && (
+                <div className="text-sm text-muted-foreground">{speaker.title}</div>
+              )}
+              <div className="mt-1 text-sm text-muted-foreground">
+                {speaker.affiliation}
+              </div>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+)}
                 <div className="grid gap-4 md:grid-cols-2">
                   <Card>
                     <CardHeader>
