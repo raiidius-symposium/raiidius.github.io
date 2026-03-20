@@ -83,7 +83,7 @@ export default function WorkshopsPage() {
                   </div>
                 </div>
 
-                {workshopSpeakers.length > 0 && (
+{workshopSpeakers.length > 0 && (
   <div>
     <h2 className="mb-4 text-lg font-semibold">Workshop Faculty</h2>
     <div className="grid gap-4 md:grid-cols-2">
@@ -103,7 +103,7 @@ export default function WorkshopsPage() {
                 </div>
               )}
             </div>
-            <div>
+            <div className="min-w-0">
               <div className="font-medium">{speaker.name}</div>
               {speaker.title && (
                 <div className="text-sm text-muted-foreground">{speaker.title}</div>
@@ -113,6 +113,12 @@ export default function WorkshopsPage() {
               </div>
             </div>
           </div>
+
+          {speaker.bio && (
+            <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
+              {speaker.bio}
+            </p>
+          )}
         </div>
       ))}
     </div>
