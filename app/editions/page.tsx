@@ -125,13 +125,23 @@ export default function EditionsPage() {
           <div className="mt-16 bg-secondary p-8 rounded-lg">
             <h3 className="text-2xl font-bold text-primary mb-4">About the RAIIDIUS Series</h3>
             <p className="text-foreground mb-4 leading-relaxed">
-              RAIIDIUS (Responsible AI for Infectious Disease Intervention, Understanding, & Surveillance) is an annual symposium series dedicated to advancing responsible artificial intelligence and informatics in infectious disease prevention, diagnosis, surveillance, and treatment.
+              RAIIDIUS (Responsible AI for Infectious Disease Intervention, Understanding, & Surveillance)
+              is an annual symposium series dedicated to advancing responsible artificial intelligence and
+              informatics across biological discovery, translational research, diagnostics, clinical care,
+              surveillance, and treatment in infectious diseases.
             </p>
             <p className="text-foreground mb-4 leading-relaxed">
-              Each year, we convene multidisciplinary experts, clinicians, public health leaders, and early-career professionals to explore how AI can address real-world challenges in specific infectious disease domains. Our focus on responsible innovation ensures that technological advances prioritize equity, implementation feasibility, and ethical considerations.
+              Each year, we convene multidisciplinary researchers, clinicians, public health leaders,
+              technologists, and early-career professionals to explore how AI can generate new biological
+              insight, accelerate translational research, and address real-world challenges in specific
+              infectious disease domains. Our focus on responsible innovation ensures that technological
+              advances are grounded in scientific rigor, ethical reflection, and meaningful real-world impact.
             </p>
             <p className="text-foreground leading-relaxed">
-              Whether your interest is in respiratory viruses, sexually transmitted infections, antimicrobial resistance, or emerging pathogens, RAIIDIUS brings together the community driving responsible AI adoption in infectious disease care and surveillance.
+              Whether your interest is in respiratory viruses, sexually transmitted infections,
+              antimicrobial resistance, emerging pathogens, or related areas of infectious disease
+              science, RAIIDIUS brings together a community working across biological discovery,
+              translational research, clinical care, and public health.
             </p>
           </div>
         </div>
