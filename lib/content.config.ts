@@ -382,7 +382,7 @@ const agenda2026: Session[] = [
     startTime: '2:00 PM',
     endTime: '3:30 PM',
     description: 'Planning future initiatives and multidisciplinary partnerships to advance responsible AI in STI prevention.',
-    location: 'VEC 201',
+    location: 'VEC Lobby Atrium and VEC 401',
   },
     {
     id: 'ohdsi-workshop',
