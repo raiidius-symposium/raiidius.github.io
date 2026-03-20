@@ -25,9 +25,10 @@ export default function AbstractsPage() {
           <h1 className="mb-4 text-3xl font-bold md:text-4xl">
             Call for Abstracts
           </h1>
-          <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
+          <p className="mx-auto max-w-3xl text-lg text-muted-foreground">
             Submit your research for presentation at {siteConfig.seriesAcronym} {currentEdition.year}.
-            We welcome abstracts on AI and informatics applications for infectious disease research.
+            We welcome abstracts on AI and informatics for infectious disease research across biological,
+            translational, clinical, and public health domains.
           </p>
         </div>
 

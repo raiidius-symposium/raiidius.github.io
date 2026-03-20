@@ -119,7 +119,7 @@ export interface Edition {
 export const siteConfig = {
   seriesName: 'Responsible AI for Infectious Disease Intervention, Understanding, & Surveillance',
   seriesAcronym: 'RAIIDIUS',
-  seriesDescription: 'RAIIDIUS is an annual symposium series advancing responsible AI and informatics for infectious diseases across prevention, diagnosis, surveillance, treatment, clinical decision support, and implementation in clinical and public health settings.',
+  seriesDescription: 'RAIIDIUS is an annual symposium series advancing responsible AI and informatics for infectious diseases across biological discovery, translational research, diagnostics, clinical decision support, surveillance, treatment, and implementation in clinical and public health settings.',
   seriesTagline: 'Responsible AI for Infectious Disease Intervention, Understanding, & Surveillance',
   defaultEditionYear: 2026,
   socialLinks: {
@@ -475,6 +475,12 @@ const importantDates2026: ImportantDate[] = [
 
 const themes2026: Theme[] = [
   {
+    id: 'biological',
+    title: 'Biological Discovery & Translational Research',
+    description: 'AI and informatics approaches for biomarker discovery, host–pathogen interactions, mechanistic infectious disease research, and translational science.',
+    icon: 'microscope',
+  },
+  {
     id: 'diagnostics',
     title: 'Diagnostics & Point-of-Care Testing',
     description: 'AI-powered diagnostic tools, computer vision for lesion identification, automated lab result interpretation.',
@@ -500,15 +506,9 @@ const themes2026: Theme[] = [
   },
   {
     id: 'implementation',
-    title: 'Clinical & Public Health Implementation',
-    description: 'Real-world deployment challenges, workflow integration, and scalability for clinical and public health practice.',
+    title: 'Clinical, Public Health & Patient-Facing Implementation',
+    description: 'Real-world deployment challenges, workflow integration, scalable decision support, and patient-facing tools across translational, clinical, and public health applications.',
     icon: 'building',
-  },
-  {
-    id: 'engagement',
-    title: 'Patient Engagement & Digital Tools',
-    description: 'Chatbots for sexual health, adherence apps, privacy-preserving patient outreach solutions.',
-    icon: 'users',
   },
 ];
 
@@ -549,7 +549,7 @@ export const editions: Edition[] = [
     slug: '2026',
     themeTitle: 'Sexually Transmitted Infections (STIs)',
     themeShortTitle: 'STIs',
-    themeDescription: 'RAIIDIUS 2026 focuses on responsible AI and informatics for the prevention and control of sexually transmitted infections. This edition brings together researchers, clinicians, public health professionals, and technologists to explore how AI can enhance STI diagnostics, surveillance, treatment support, and patient engagement while addressing critical concerns around real-world implementation and ethical and social implications of AI in healthcare.',
+    themeDescription: 'RAIIDIUS 2026 focuses on responsible AI and informatics for sexually transmitted infections, spanning biological discovery, translational research, clinical care, and public health practice. This edition brings together researchers, clinicians, public health professionals, and technologists to explore how AI can support STI diagnostics, surveillance, treatment, patient engagement, real-world implementation, and new scientific discovery.',
     date: '2026-06-09',
     dateFormatted: 'June 9, 2026',
     timezone: 'Eastern Time (ET)',
@@ -673,7 +673,7 @@ export const whatToExpectCards = [
   },
   {
     title: 'Methods & Implementation',
-    description: 'Learn practical approaches for deploying AI in clinical and public health settings.',
+    description: 'Learn practical AI and informatics approaches spanning biological discovery, translational science, and real-world clinical and public health implementation.',
     icon: 'code',
   },
   {
@@ -696,6 +696,7 @@ export const submissionGuidelines = {
   formats: ['Oral Presentation (15 minutes)', 'Poster Presentation'],
   wordLimit: 500,
   categories: [
+    'Biological Discovery & Translational Research',
     'Diagnostics & Point-of-Care Testing',
     'Surveillance & Outbreak Detection',
     'Predictive Modeling & Risk Stratification',

@@ -91,28 +91,41 @@ export default function AboutPage() {
         </div>
 
         {/* Mission & Rationale */}
+
         <section className="mb-12">
           <h2 className="mb-6 text-2xl font-bold">Our Mission</h2>
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              Artificial intelligence and data-driven informatics have the potential to transform 
-              how we prevent, diagnose, treat, and monitor infectious diseases. From AI-powered 
-              diagnostic tools to predictive models for outbreak detection, these technologies 
-              offer unprecedented opportunities to improve public health outcomes.
+              Artificial intelligence and data-driven informatics have the potential to transform
+              how we study, prevent, diagnose, treat, and monitor infectious diseases. From
+              AI-powered diagnostic tools and predictive models for outbreak detection to
+              biomarker discovery, host–pathogen modeling, and translational research, these
+              technologies offer unprecedented opportunities to accelerate scientific discovery
+              and improve clinical and public health outcomes.
             </p>
             <p>
-              However, realizing this potential requires navigating significant challenges: 
-              data quality and availability constraints, siloed expertise across clinical, 
-              technical, and public health domains, concerns about model limitations and fairness, 
-              and the complexities of implementing AI tools in real-world healthcare settings.
+              However, realizing this potential requires navigating significant challenges:
+              data quality and availability constraints, siloed expertise across biological,
+              translational, clinical, technical, and public health domains, concerns about
+              model limitations and fairness, and the complexities of moving AI-enabled
+              insights from discovery to real-world impact.
             </p>
             <p>
-              <strong className="text-foreground">{siteConfig.seriesAcronym}</strong> was created to 
-              address these challenges by convening cross-disciplinary stakeholders to advance the 
-              responsible adoption of AI and informatics in infectious disease prevention and control. 
-              Our symposium series provides a forum for researchers, clinicians, public health 
-              professionals, data scientists, and community stakeholders to share knowledge, discuss 
-              ethical considerations, and build collaborations.
+              Infectious disease research increasingly spans molecular, experimental,
+              translational, clinical, and population-level data. RAIIDIUS recognizes that AI
+              and informatics can help connect these layers to generate new biological insight,
+              improve mechanistic understanding, and accelerate the translation of discoveries
+              into diagnostics, therapeutics, and prevention strategies.
+            </p>
+            <p>
+              <strong className="text-foreground">{siteConfig.seriesAcronym}</strong> was created to
+              address these challenges by convening cross-disciplinary stakeholders to advance the
+              responsible use of AI and informatics across the full spectrum of infectious disease
+              research and action. Our symposium series provides a forum for researchers,
+              clinicians, public health professionals, computational scientists, and other
+              collaborators to share knowledge, discuss ethical considerations, and build
+              partnerships spanning biological discovery, translational science, clinical care,
+              and public health practice.
             </p>
           </div>
         </section>
@@ -123,10 +136,12 @@ export default function AboutPage() {
             <CardContent className="pt-6">
               <h3 className="mb-3 text-xl font-semibold">An Annual Series</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Each year, {siteConfig.seriesAcronym} focuses on a specific infectious disease domain, 
-                allowing for deep exploration of how AI and informatics can address the unique 
-                challenges of that area. Previous and future topics may include respiratory viruses, 
-                antimicrobial resistance, emerging pathogens, and other pressing public health concerns.
+                Each year, {siteConfig.seriesAcronym} focuses on a specific infectious disease domain,
+                allowing for deep exploration of how AI and informatics can advance discovery,
+                translation, and real-world impact in that area. Future topics may include
+                respiratory viruses, antimicrobial resistance, emerging pathogens, cancer and
+                infectious diseases, women’s health, and other areas where biological,
+                translational, clinical, and public health perspectives intersect.
               </p>
               <div className="mt-4 flex items-center gap-2">
                 <Badge variant="secondary">2026: {currentEdition.themeTitle}</Badge>
@@ -173,16 +188,16 @@ export default function AboutPage() {
             <div className="rounded-lg border p-4">
               <h3 className="font-semibold mb-2">Healthcare For All</h3>
               <p className="text-sm text-muted-foreground">
-                We are committed to ensuring AI tools benefit all populations and do not 
-                exacerbate existing health disparities.
+                We are committed to ensuring that AI and informatics advance scientific discovery
+                and real-world benefit across populations, settings, and stages of research and care.
               </p>
             </div>
             <div className="rounded-lg border p-4">
-              <h3 className="font-semibold mb-2">Implementation Focus</h3>
-              <p className="text-sm text-muted-foreground">
-                We emphasize practical, real-world deployment of AI tools in clinical and 
-                public health settings.
-              </p>
+             <h3 className="mb-2 font-semibold">Discovery to Impact</h3>
+             <p className="text-sm text-muted-foreground">
+              We emphasize the full continuum from biological and translational discovery to
+              practical implementation in clinical and public health settings.
+             </p>
             </div>
             <div className="rounded-lg border p-4">
               <h3 className="font-semibold mb-2">Collaboration</h3>
