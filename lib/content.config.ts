@@ -402,6 +402,7 @@ const agenda2026: Session[] = [
     endTime: '5:00 PM',
     description: 'Dr. Reyes Nieva presents summary takeaways and next steps for the RAIIDIUS community.',
     location: 'VEC 201',
+    speakers: ['speaker-1'],
   },
   {
     id: 'poster-networking',
