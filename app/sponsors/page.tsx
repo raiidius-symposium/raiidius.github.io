@@ -165,7 +165,7 @@ export default function SponsorsPage() {
                 on level of support and shared goals.
               </p>
               <p className="leading-relaxed text-muted-foreground">
-                To learn more about supporting {siteConfig.seriesAcronym} {currentEdition.year},
+                To learn more about supporting {siteConfig.seriesAcronym} {currentEdition.year} or future symposia,
                 please contact us.
               </p>
             </CardContent>
