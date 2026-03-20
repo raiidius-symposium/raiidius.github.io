@@ -9,8 +9,8 @@ const nextConfig = {
     unoptimized: true,
   },
   // Uncomment and update if deploying to a subpath (e.g., https://username.github.io/repo-name/)
-     basePath: '/raiidius',
-     assetPrefix: '/raiidius/',
+ //    basePath: '/raiidius',
+ //    assetPrefix: '/raiidius/',
 }
 
 export default nextConfig
