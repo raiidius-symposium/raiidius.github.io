@@ -68,7 +68,7 @@ export default function VenuePage() {
 
 <div className="mt-6 overflow-hidden rounded-xl border">
     <img
-      src="/raiidius/vps-vec-exterior.jpg"
+      src="/vps-vec-exterior.jpg"
       alt="Exterior view of the Vagelos Education Center"
       className="h-auto w-full object-cover"
     />
