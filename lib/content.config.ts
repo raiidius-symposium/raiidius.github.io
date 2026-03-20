@@ -554,7 +554,7 @@ export const editions: Edition[] = [
     dateFormatted: 'June 9, 2026',
     timezone: 'Eastern Time (ET)',
     venue: 'Roy and Diana Vagelos Education Center',
-    venueRoom: 'VEC 401',
+    venueRoom: 'VEC',
     address: '104 Haven Ave',
     city: 'New York',
     state: 'NY',
