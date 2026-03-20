@@ -66,14 +66,6 @@ export default function VenuePage() {
           </Card>
         </section>
 
-<div className="mt-6 overflow-hidden rounded-xl border">
-    <img
-      src="/vps-vec-exterior.jpg"
-      alt="Exterior view of the Vagelos Education Center"
-      className="h-auto w-full object-cover"
-    />
-  </div>
-
         {/* Embedded Google Map */}
 <section className="mb-12">
   <div className="overflow-hidden rounded-lg border">
