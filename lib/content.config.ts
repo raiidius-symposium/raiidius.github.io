@@ -358,7 +358,7 @@ const agenda2026: Session[] = [
     endTime: '12:00 PM',
     description: '"Responsible AI Across the STI Research Continuum" — Panel includes scientists, clinicians, public health leaders, and other experts discussing how AI and informatics can support biological discovery, translational research, clinical care, and public health action in sexually transmitted infections.',
     location: 'VEC 401',
-    speakers: ['speaker-4', 'speaker-5', 'speaker-6'],
+    speakers: ['speaker-4',],
   },
   {
     id: 'lunch-poster',
