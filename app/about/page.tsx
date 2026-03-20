@@ -259,22 +259,6 @@ export default function AboutPage() {
             ))}
           </div>
         </section>
-
-        <PartnersSection />
-
-        {/* Contact */}
-        <section className="rounded-lg border bg-muted/30 p-6 text-center">
-          <h2 className="mb-2 text-lg font-semibold">Get in Touch</h2>
-          <p className="text-muted-foreground">
-            For questions about {siteConfig.seriesAcronym}, contact us at{' '}
-            <a
-              href={`mailto:${currentEdition.contactEmail}`}
-              className="text-primary hover:underline"
-            >
-              {currentEdition.contactEmail}
-            </a>
-          </p>
-        </section>
       </div>
     </div>
   );
