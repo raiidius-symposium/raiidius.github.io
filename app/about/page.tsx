@@ -105,9 +105,9 @@ export default function AboutPage() {
             </p>
             <p>
               However, realizing this potential requires navigating significant challenges:
-              data quality and availability constraints, siloed expertise across biological,
-              translational, clinical, technical, and public health domains, concerns about
-              model limitations and fairness, and the complexities of moving AI-enabled
+              data quality and availability constraints; siloed expertise across biological,
+              translational, clinical, technical, and public health domains; concerns about
+              model limitations and fairness; and the complexities of moving AI-enabled
               insights from discovery to real-world impact.
             </p>
             <p>

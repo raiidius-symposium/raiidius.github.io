@@ -519,11 +519,11 @@ const themes2026: Theme[] = [
 const faqs2026: FAQ[] = [
   {
     question: 'Who should attend RAIIDIUS 2026?',
-    answer: 'RAIIDIUS welcomes researchers, clinicians, public health professionals, data scientists, trainees, and community advocates interested in the intersection of AI/informatics and infectious disease prevention.',
+    answer: 'RAIIDIUS welcomes researchers, clinicians, public health professionals, computational scientists, data scientists, trainees, and other collaborators interested in the use of AI and informatics across biological discovery, translational research, clinical care, and public health in infectious diseases.',
   },
   {
     question: 'What types of abstracts are you accepting?',
-    answer: 'We accept abstracts for oral presentations and poster sessions. Topics should align with our themes: diagnostics, surveillance, predictive modeling, ethics, implementation, or patient engagement tools.',
+    answer: 'We accept abstracts for oral presentations and poster sessions. Topics may include biological discovery, host–pathogen research, biomarkers, multi-omics and computational discovery, diagnostics, surveillance, predictive modeling, clinical and public health implementation, ethics, and patient-facing or digital tools in infectious diseases.',
   },
   {
     question: 'Will presentations be recorded?',
