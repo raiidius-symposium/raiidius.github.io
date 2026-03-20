@@ -325,7 +325,7 @@ export default function WorkshopsPage() {
         <section className="mb-12">
           <h2 className="mb-6 text-2xl font-bold">Future Workshop Formats</h2>
           <p className="mb-6 text-muted-foreground">
-            Future editions of {siteConfig.seriesAcronym} may again include
+            Future editions of {siteConfig.seriesAcronym} may include
             concurrent breakout sessions, longer hands-on workshops, or other
             interactive formats.
           </p>
@@ -370,9 +370,7 @@ export default function WorkshopsPage() {
         <section className="rounded-lg border border-primary/20 bg-primary/5 p-6">
           <h2 className="mb-3 text-lg font-semibold">Tutorial Participation</h2>
           <p className="text-muted-foreground">
-            The OHDSI workshop tutorial is included for all registered attendees. No
-            separate breakout selection is required for {siteConfig.seriesAcronym}{' '}
-            {currentEdition.year}.
+            The OHDSI workshop tutorial is included for all registered attendees.
           </p>
           <div className="mt-4">
             <Button asChild variant="outline" size="sm">
