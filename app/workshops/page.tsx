@@ -179,23 +179,7 @@ export default function WorkshopsPage() {
       <div className="mx-auto max-w-4xl">
         <div className="mb-8">
           <h1 className="mb-4 text-3xl font-bold md:text-4xl">Workshop Tutorial</h1>
-          <p className="text-lg text-muted-foreground">
-            {siteConfig.seriesAcronym} {currentEdition.year} features a single OHDSI
-            workshop tutorial in place of concurrent breakout sessions.
-          </p>
         </div>
-
-        <Alert className="mb-8 border-primary/20 bg-primary/5">
-          <Info className="h-4 w-4" />
-          <AlertDescription>
-            <strong>
-              {siteConfig.seriesAcronym} {currentEdition.year}
-            </strong>{' '}
-            includes one shared tutorial for all attendees. The breakout-session
-            framework remains available for future editions.
-          </AlertDescription>
-        </Alert>
-
         {workshopSession ? (
           <section className="mb-12">
             <Card className="overflow-hidden border-primary/20">
