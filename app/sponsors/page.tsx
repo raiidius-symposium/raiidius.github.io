@@ -184,12 +184,6 @@ export default function SponsorsPage() {
                 Contact Us
               </a>
             </Button>
-            <Button asChild variant="outline" className="gap-2">
-              <a href="/register">
-                View Symposium
-                <ArrowRight className="h-4 w-4" />
-              </a>
-            </Button>
           </div>
         </section>
       </div>
