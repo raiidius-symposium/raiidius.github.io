@@ -41,7 +41,7 @@ export function PartnersSection() {
           {currentEdition.sponsorName && (
             <div className="rounded-lg border bg-card p-6 text-center md:p-8">
               <p className="mb-2 text-sm font-medium uppercase tracking-wider text-muted-foreground">
-                With Grant Support From
+                This Year With Grant Support From
               </p>
               <h3 className="text-lg font-semibold text-foreground">
                 {currentEdition.sponsorName}

@@ -119,7 +119,7 @@ export interface Edition {
 export const siteConfig = {
   seriesName: 'Responsible AI for Infectious Disease Intervention, Understanding, & Surveillance',
   seriesAcronym: 'RAIIDIUS',
-  seriesDescription: 'RAIIDIUS is an annual symposium series advancing responsible AI and informatics for infectious diseases across biological discovery, translational research, diagnostics, clinical decision support, surveillance, treatment, and implementation in clinical and public health settings.',
+  seriesDescription: 'RAIIDIUS is an annual symposium series advancing responsible AI and informatics for infectious diseases across biological discovery, translational research, clinical care, and public health.',
   seriesTagline: 'Responsible AI for Infectious Disease Intervention, Understanding, & Surveillance',
   defaultEditionYear: 2026,
   socialLinks: {
