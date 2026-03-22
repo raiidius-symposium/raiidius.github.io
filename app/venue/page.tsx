@@ -209,10 +209,6 @@ export default function VenuePage() {
                   <p>514 W 168th St, New York, NY</p>
                 </div>
                 <div>
-                  <p className="font-medium text-foreground">Aloft Harlem</p>
-                  <p>2296 Frederick Douglass Blvd, New York, NY</p>
-                </div>
-                <div>
                   <p className="font-medium text-foreground">Hotels in Midtown</p>
                   <p>~30 min subway ride to venue</p>
                 </div>
