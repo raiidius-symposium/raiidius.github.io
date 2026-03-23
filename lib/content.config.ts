@@ -495,8 +495,8 @@ const themes2026: Theme[] = [
   },
   {
     id: 'implementation',
-    title: 'Clinical, Public Health & Patient-Facing Implementation',
-    description: 'Real-world deployment challenges, workflow integration, scalable decision support, and patient-facing tools across translational, clinical, and public health applications.',
+    title: 'Clinical, Public Health & Consumer-Facing Implementation',
+    description: 'Real-world deployment challenges, workflow integration, scalable decision support, and patient/consumer-facing tools across translational, clinical, and public health applications.',
     icon: 'building',
   },
 ];
