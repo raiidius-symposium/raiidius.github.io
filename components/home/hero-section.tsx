@@ -25,7 +25,7 @@ export function HeroSection() {
       
       <div className="container relative mx-auto px-4">
         <div className="mx-auto max-w-4xl text-center">
-<h1 className="mb-4 flex items-center justify-center text-5xl font-bold tracking-tight text-[rgb(13,36,74)] md:text-7xl">
+<h1 className="mb-4 flex items-center justify-center text-5xl font-bold tracking-tight text-[rgb(13,35,72)] md:text-7xl">
   <img
     src="/raiidius-logo.png"
     alt="R"
