@@ -691,7 +691,7 @@ export const submissionGuidelines = {
     'Surveillance & Outbreak Detection',
     'Predictive Modeling & Risk Stratification',
     'Ethical, Legal, and Social Implications',
-    'Clinical, Public Health, and Patient-Facing Implementation',
+    'Clinical, Public Health, and Consumer-Facing Implementation',
   ],
   reviewCriteria: [
     'Scientific merit and innovation',
