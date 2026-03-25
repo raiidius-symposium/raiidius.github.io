@@ -259,7 +259,7 @@ const speakers2026: Speaker[] = [
     title: 'Professor of Medicine',
     role: ['moderator',],
     bio: 'Dr. Yin is an infectious disease specialist who has dedicated his career towards optimizing HIV treatment and prevention. His research focuses upon non-infectious complications of HIV which is growing in significance as people with HIV live longer with effective antiretrovirals therapy (ART) and experience accentuated aging-related complications. He has evaluated the epidemiology and pathogenic mechanisms of HIV associated bone loss in postmenopausal women, adolescents, and children with perinatal infection. Using novel imaging techniques and translational bone cell assays, he has made important discoveries about the dysregulation of bone metabolism associated with HIV infection and ART and investigated therapeutic strategies to mitigate bone loss and fracture. In addition to skeletal complications, Dr. Yin has also studied the impact of HIV and ART on cardiovascular disease, metabolic syndrome, obesity, frailty and falls. Recent work has extended to evaluation of epigenetic aging in children, adolescents and adults living with HIV.',
-    keywords: ['Clinical Informatics', 'HIV', 'Aging', 'Cardiovascular Disease', 'Epigenetics'],
+    keywords: ['Clinical Informatics', 'HIV', 'Aging', 'Epigenetics', 'Cardiovascular Disease'],
     headshot: '/speakers/michael-yin.jpg',
   },
 //  {
