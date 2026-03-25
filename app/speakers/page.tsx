@@ -30,12 +30,12 @@ const roleOrder = [
   'founder',
   'general-chair',
   'program-chair',
+  'organizer',
   'keynote',
   'moderator',
   'panelist',
   'breakout-lead',
   'presenter',
-  'organizer',
 ];
 const getSpeakerRoles = (speaker: Speaker): string[] =>
   Array.isArray(speaker.role) ? speaker.role : [speaker.role];
