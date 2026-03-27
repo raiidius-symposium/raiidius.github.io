@@ -16,13 +16,6 @@ const organizingCommittee = [
     title: 'Postdoctoral Research Scientist',
     headshot: '/speakers/harry-reyes-nieva.jpg',
   },
-//  {
-//    name: 'Safura Abdool Karim, PhD, LLM',
-//    role: 'Committee Member',
-//    affiliation: 'Columbia Mailman SPH, Heilbrunn Department of Population and Family Health',
-//    title: 'Adjunct Assistant Professor',
-//    headshot: 'speakers/safura-abdool-karim.jpeg',
-//  },
   {
     name: 'Delivette Castor, PhD, MPH, MSc',
     role: 'Committee Member',
@@ -37,13 +30,6 @@ const organizingCommittee = [
     title: 'Postdoctoral Research Scientist',
     headshot: '/speakers/craig-heck.jpg',
   },
-//  {
-//    name: 'Preeti Pathela, DrPH, MPH',
-//    role: 'Committee Member',
-//    affiliation: 'NYC Department of Health and Mental Hygiene',
-//    title: 'Director of Research and Evaluation, Bureau of Sexually Transmitted Infections',
-//    headshot: '/speakers/preeti-pathela.png',
-//  },
   {
     name: 'Magdalena E. Sobieszczyk, MD, MPH',
     role: 'Committee Member',
@@ -96,7 +82,7 @@ export default function AboutPage() {
           <h2 className="mb-6 text-2xl font-bold">Our Mission</h2>
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              Artificial intelligence and data-driven informatics have the potential to transform
+              Artificial intelligence and informatics have the potential to transform
               how we study, prevent, diagnose, treat, and monitor infectious diseases. From
               AI-powered diagnostic tools and predictive models for outbreak detection to
               biomarker discovery, host–pathogen modeling, and translational research, these
