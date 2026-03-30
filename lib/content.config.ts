@@ -366,15 +366,15 @@ const agenda2026: Session[] = [
     description: 'Enjoy lunch while participating in facilitated discussions regarding future potential initiatives and multidisciplinary partnerships to advance responsible AI and informatics in ID research.',
     location: 'VEC Lobby Atrium',
   },
-  {
-    id: 'roundtable',
-    title: 'Roundtable Discussions: Next Steps - Collaborations, Pilots, & Policy',
-    format: 'roundtable',
-    startTime: '11:00 AM',
-    endTime: '12:00 PM',
-    description: 'Planning .',
-    location: 'VEC Lobby Atrium and VEC 401',
-  },
+  // {
+  //   id: 'roundtable',
+  //   title: 'Roundtable Discussions: Next Steps - Collaborations, Pilots, & Policy',
+  //   format: 'roundtable',
+  //   startTime: '11:00 AM',
+  //   endTime: '12:00 PM',
+  //   description: 'Planning .',
+  //   location: 'VEC Lobby Atrium and VEC 401',
+  // },
     {
     id: 'panel',
     title: 'Panel Discussion: Responsible AI Across the STI Research Continuum',
@@ -383,7 +383,7 @@ const agenda2026: Session[] = [
     endTime: '2:00 PM',
     description: 'Panel includes scientists, clinicians, public health leaders, and other experts discussing the promise and perils of AI and informatics for biological discovery, translational research, clinical care, and public health action in sexually transmitted infections.',
     location: 'VEC 201',
-    speakers: ['speaker-4',],
+    speakers: ['speaker-4','speaker-11'],
   },
     {
     id: 'oral-session-3',
