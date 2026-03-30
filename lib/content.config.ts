@@ -359,12 +359,12 @@ const agenda2026: Session[] = [
   },
   {
     id: 'lunch-roundtable',
-    title: 'Roundtable Discussions and Lunch',
-    format: 'lunch',
+    title: 'Lunch & Roundtable Discussions',
+    format: 'roundtable',
     startTime: '12:00 PM',
     endTime: '1:00 PM',
     description: 'Enjoy lunch while participating in facilitated discussions regarding potential initiatives and multidisciplinary partnerships to advance responsible AI and informatics in ID research.',
-    location: 'VEC Lobby Atrium',
+    location: 'VEC Lobby Atrium and VEC 401',
   },
   // {
   //   id: 'roundtable',
