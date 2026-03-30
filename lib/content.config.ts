@@ -363,7 +363,7 @@ const agenda2026: Session[] = [
     format: 'lunch',
     startTime: '12:00 PM',
     endTime: '1:00 PM',
-    description: 'Enjoy lunch while participating in facilitated discussions regarding future potential initiatives and multidisciplinary partnerships to advance responsible AI and informatics in ID research.',
+    description: 'Enjoy lunch while participating in facilitated discussions regarding potential initiatives and multidisciplinary partnerships to advance responsible AI and informatics in ID research.',
     location: 'VEC Lobby Atrium',
   },
   // {
