@@ -398,7 +398,7 @@ const agenda2026: Session[] = [
   },
   {
     id: 'poster-networking',
-    title: 'Poster Session and Networking Reception: AI and Informatics-based Methods and Applications for Infectious Disease Research',
+    title: 'Poster Session & Networking Reception: AI and Informatics-based Methods and Applications for Infectious Disease Research and Practice',
     format: 'poster',
     startTime: '5:00 PM',
     endTime: '7:00 PM',
