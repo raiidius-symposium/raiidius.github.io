@@ -310,7 +310,7 @@ const agenda2026: Session[] = [
   },
   {
     id: 'panel',
-    title: 'Panel Discussion: Responsible AI Across the STI Research & Practice Continuum - From Clinics to Communities',
+    title: 'Panel Session: Responsible AI Across the STI Research & Practice Continuum - From Clinics to Communities',
     format: 'panel',
     startTime: '10:00 AM',
     endTime: '11:00 AM',
@@ -349,7 +349,7 @@ const agenda2026: Session[] = [
   },
   {
     id: 'panel',
-    title: 'Panel Discussion: Responsible AI Across the STI Research & Practice Continuum - From Bench to Bedside',
+    title: 'Panel Session: Responsible AI Across the STI Research & Practice Continuum - From Bench to Bedside',
     format: 'panel',
     startTime: '1:00 PM',
     endTime: '2:00 PM',
