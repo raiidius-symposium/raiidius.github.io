@@ -272,6 +272,16 @@ const speakers2026: Speaker[] = [
     keywords: ['Biomedical Informatics', 'Clinical Genomics', 'Personalized Medicine', 'Biomedical Ontologies'],
     headshot: '/speakers/michael-cantor.png',
   },
+  {
+    id: 'speaker-12',
+    name: 'Akhila Kosaraju, MD',
+    affiliation: 'Phare Bio',
+    title: 'CEO & President',
+    role: ['keynote',],
+    bio: 'Dr. Akhila Kosaraju is the CEO and President of Phare Bio, a social venture pioneering the use of generative AI and deep learning to discover new classes of antibiotics, in collaboration with the Collins Lab at MIT. Under her leadership, Phare Bio launched with funding and support from TED\’s Audacious Project, which backs bold solutions to the world\’s most urgent challenges. The company has since been awarded $27 million from the Advanced Research Projects Agency for Health (ARPA-H), selected for Google.org\’s Generative AI Accelerator, and named to Fast Company\’s 2025 World Changing Ideas list. Phare has also received a Newsweek AI Impact Award and was chosen as Wired Health\’s Startup Showcase Winner. \r\n Dr. Kosaraju has spent her career building companies and driving innovation at the intersection of infectious disease and computational biology. She was the founding CEO of Variant Bio, a venture-backed genomics and therapeutics company, and previously served as an executive at SIGA Technologies, where she helped bring antiviral drugs to market. Earlier in her career, Dr. Kosaraju was a White House appointee at the Pentagon, where she served as Special Assistant to the Assistant Secretary of Defense for Health Affairs. \r\n She is a recipient of the Office of the Secretary of Defense Medal for Exceptional Public Service, the highest non-career civilian honor within the Department of Defense. Dr. Kosaraju is a Member of the Council on Foreign Relations, co-founder of the Alliance to End Biological Threats, and a Lecturer at Stanford\’s Center for Biosecurity and Pandemic Resilience. She earned her M.D. from Columbia University\’s College of Physicians and Surgeons and holds a B.A. in Human Biology from Stanford University.',
+    keywords: [''],
+    headshot: '/speakers/akhila-kosaraju.png',
+  },
 ];
 
 
@@ -392,8 +402,9 @@ const agenda2026: Session[] = [
     format: 'keynote',
     startTime: '4:00 AM',
     endTime: '4:45 PM',
-    description: '',
+    description: 'Dr. Akhila Kosaraju, CEO and President of Phare Bio, will deliver a keynote on the promise of generative AI and deep learning to responsibly accelerate biological discovery and translational research. Phare Bio is a social venture applying these technologies to the discovery of new classes of antibiotics in collaboration with the Collins Lab at MIT. Dr. Kosaraju\'s talk will examine how AI can advance antimicrobial innovation while also addressing the scientific, operational, and translational challenges of moving these approaches toward real-world impact. Under her leadership, Phare Bio launched with support from TED’s Audacious Project and has since received a $27 million award from the Advanced Research Projects Agency for Health (ARPA-H), been selected for Google.org’s Generative AI Accelerator, named to Fast Company’s 2025 World Changing Ideas list, received a Newsweek AI Impact Award, and been recognized as Wired Health’s Startup Showcase Winner.',
     location: 'VEC 201',
+    speakers: ['speaker-12'],
   },
   {
     id: 'closing',
