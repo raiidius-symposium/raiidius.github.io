@@ -245,10 +245,10 @@ const speakers2026: Speaker[] = [
   {
     id: 'speaker-9',
     name: 'Anna Ostropolets, MD, PhD',
-    affiliation: 'CUIMC Department of Biomedical Informatics',
-    title: 'Adjunct Assistant Professor of Biomedical Informatics',
+    affiliation: 'Johnson & Johnson',
+    title: 'Associate Director, Observational Health Data Analytics',
     role: 'presenter',
-    bio: 'Dr. Ostropolets is an Associate Director at Janssen Research and Development, a Johnson & Johnson Company where she works on methods to advance observational research for medical products safety. More broadly, as Adjunct Assistant Professor of Biomedical Informatics at Columbia University and a long-standing OHDSI collaborator, she designs, builds and disseminates frameworks, approaches and tools for minimizing bias in observational research with a specific focus on patient phenotyping. Since 2022, she has led the OHDSI Vocabulary improvement initiative focused on improving the quality, fit-for-use, and transparency of the OHDSI Standardized Vocabularies. Dr. Ostropolets received her medical degree and completed her residency at Kharkiv National Medical University. Before joining Janssen, she was Director, Head of Innovation Lab for Odysseus Data Services coordinating business intelligence initiative for harmonization and visualization of real-world data.',
+    bio: 'Dr. Ostropolets is an Associate Director at Johnson & Johnson Company where she works on methods to advance observational research for medical products safety. More broadly, as Adjunct Assistant Professor of Biomedical Informatics at Columbia University and a long-standing OHDSI collaborator, she designs, builds and disseminates frameworks, approaches and tools for minimizing bias in observational research with a specific focus on patient phenotyping. Since 2022, she has led the OHDSI Vocabulary improvement initiative focused on improving the quality, fit-for-use, and transparency of the OHDSI Standardized Vocabularies. Dr. Ostropolets received her medical degree and completed her residency at Kharkiv National Medical University. Before joining Janssen, she was Director, Head of Innovation Lab for Odysseus Data Services coordinating business intelligence initiative for harmonization and visualization of real-world data.',
     keywords: ['Real-World Evidence', 'Clinical Phenotyping', 'Knowledge Engineering', 'Medical Ontologies'],
     headshot: '/speakers/anna-ostropolets.jpg',
   },
