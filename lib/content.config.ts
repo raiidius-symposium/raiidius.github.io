@@ -449,13 +449,13 @@ const importantDates2026: ImportantDate[] = [
   },
   {
     label: 'Abstract Submission Deadline',
-    date: 'May 1, 2026',
+    date: 'May 8, 2026',
     description: 'Abstracts will be reviewed on a rolling basis.',
   },
   {
     label: 'Notification of Acceptance',
-    date: 'May 9, 2026',
-    description: 'Authors will be notified of abstract acceptance on a rolling basis and by May 9th at the latest.',
+    date: 'May 15, 2026',
+    description: 'Authors will be notified of abstract acceptance on a rolling basis and by May 15th at the latest.',
   },
   {
     label: 'RAIIDIUS 2026 Symposium',
