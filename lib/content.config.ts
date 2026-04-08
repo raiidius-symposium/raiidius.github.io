@@ -289,7 +289,7 @@ const speakers2026: Speaker[] = [
     title: 'Associate Professor',
     role: ['panelist',],
     bio: 'Dr. Bershteyn is an Associate Professor of Population Health at the NYU Grossman School of Medicine in New York City. Her lab uses simulation science to inform public health decision-making at the intersection of infectious diseases and related health conditions. Her research focuses on infectious disease transmission dynamics and on evaluating the effects of biomedical and programmatic advances in HIV prevention and care. She collaborates with local public health agencies, health authorities across eastern and southern Africa, and international organizations including the World Health Organization. Dr. Bershteyn earned her PhD in Materials Science and Engineering from the Massachusetts Institute of Technology, where she studied lipid self-assembly at nanoparticle surfaces as a biomimetic approach to vaccine development. She later founded and led the HIV/Tuberculosis modeling team at the Institute for Disease Modeling, now part of the Bill & Melinda Gates Foundation.',
-    keywords: ['Computational Modeling', 'Systems Biology', 'Vaccinology', 'Drug Delivery', 'Epidemiology'],
+    keywords: ['Epidemiology', 'Computational Modeling', 'Systems Biology', 'Vaccinology', 'Drug Delivery'],
     headshot: '/speakers/anna-bershteyn.png',
   },
 ];
